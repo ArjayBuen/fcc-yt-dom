@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(39, 34, 34);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width:500px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+.list-items{
+    background-color: azure;
+    font-size: 1.5rem;
+    padding: 5px 0 5px 0;
+    border: 1px solid black;
+    border-bottom: none;
+}
+.list-items:last-of-type{
+    border-bottom: 1px solid black;
+}
