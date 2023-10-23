@@ -75,3 +75,22 @@ console.log(html.parentElement);
 //Child Node Traversal
 console.log(ul);
 console.log(ul.childNodes);
+console.log(ul.firstChild);//logs the text
+console.log(ul.lastChild);//logs the text
+
+//ul.firstChild.style.backgroundColor='blue';//nothing will change because text is just an indent
+ul.childNodes[1].style.backgroundColor='blue';
+
+console.log(ul.children);
+console.log(ul.firstElementChild);
+console.log(ul.lastElementChild);
+console.log(ul.children[1]);
+
+//Sibling Node Traversal
+const div =document.querySelector('div');
+console.log(div.childNodes);
+console.log(ul.previousSibling);
+console.log(ul.nextSibling);
+console.log(ul.previousElementSibling);//logs the h1 because they are the same level
+console.log(ul.nextElementSibling);//logs null because no same level element next
+
