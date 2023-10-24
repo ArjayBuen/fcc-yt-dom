@@ -32,3 +32,25 @@ button{
 .hidden-content.reveal-btn{
     display: block;
 }
+
+
+.container2{
+    border:3px solid black;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.div2{
+    border: 1px solid black;
+    padding: 20px;
+    /* text-align: center; */
+}
+.div1{
+    border: 1px solid black;
+    padding: 20px;
+}
+.btn{
+    padding: 20px;
+}
