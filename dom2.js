@@ -107,3 +107,12 @@ document.querySelector('#sports-list').addEventListener("click",function(e){
                  target.style.backgroundColor="lightgray";
              }
 })
+
+const sports=document.querySelector('#sports-list');
+const newSport =document.createElement('li');
+
+newSport.innerText='rugby';
+newSport.setAttribute('id', 'rugby');
+newSport.setAttribute('class','sports');
+
+sports.appendChild(newSport);
